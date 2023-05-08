@@ -12,6 +12,7 @@ view and update the status of the reports. They can see which reports are open a
 
 
 Some of the key features of this system are:
+
       • Analytics and Reporting: Both the website and desktop application have analytics and reporting
            features. This allows users to see statistics on the types of incidents reported, trends in crime,
            and other key metrics that can help local authorities make informed decisions and allocate
@@ -20,3 +21,4 @@ Some of the key features of this system are:
           features. The website has a safety guide section where users can find safety tips and resources.
           The desktop application includes an emergency alert notification to promote overall safety in
           the barangay.
+
