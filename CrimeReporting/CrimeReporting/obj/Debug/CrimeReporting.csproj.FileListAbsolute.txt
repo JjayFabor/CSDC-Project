@@ -1,0 +1,11 @@
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\bin\Debug\CrimeReporting.exe.config
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\bin\Debug\CrimeReporting.exe
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\bin\Debug\CrimeReporting.pdb
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.csproj.AssemblyReference.cache
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.csproj.SuggestedBindingRedirects.cache
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.Properties.Resources.resources
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.csproj.GenerateResource.cache
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.csproj.CoreCompileInputs.cache
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.exe
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.pdb
+D:\Coding Stuff\repo\CrimeReporting\CrimeReporting\obj\Debug\CrimeReporting.Dashboard.resources
