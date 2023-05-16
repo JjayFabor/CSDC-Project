@@ -28,50 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.navBar = new System.Windows.Forms.MenuStrip();
-            this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.asdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.navBar.SuspendLayout();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
-            // navBar
+            // label1
             // 
-            this.navBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(49)))), ((int)(((byte)(105)))));
-            this.navBar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.navBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.homeToolStripMenuItem});
-            this.navBar.Location = new System.Drawing.Point(0, 0);
-            this.navBar.Name = "navBar";
-            this.navBar.Size = new System.Drawing.Size(126, 647);
-            this.navBar.TabIndex = 0;
-            this.navBar.Text = "navBar";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(147, 31);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Dashboard";
             // 
-            // homeToolStripMenuItem
+            // dataGridView1
             // 
-            this.homeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.asdToolStripMenuItem});
-            this.homeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(113, 19);
-            this.homeToolStripMenuItem.Text = "Home";
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(1, 370);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1096, 275);
+            this.dataGridView1.TabIndex = 1;
             // 
-            // asdToolStripMenuItem
+            // chart1
             // 
-            this.asdToolStripMenuItem.Name = "asdToolStripMenuItem";
-            this.asdToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
-            this.asdToolStripMenuItem.Text = "asd";
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(571, 30);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(526, 303);
+            this.chart1.TabIndex = 2;
+            this.chart1.Text = "chart1";
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1097, 647);
-            this.Controls.Add(this.navBar);
-            this.MainMenuStrip = this.navBar;
+            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.label1);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
-            this.navBar.ResumeLayout(false);
-            this.navBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,9 +91,9 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip navBar;
-        private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem asdToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
 }
 
