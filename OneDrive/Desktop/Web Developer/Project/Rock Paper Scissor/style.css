@@ -1,0 +1,107 @@
+body {
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+}
+.container {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.container > div {
+    margin: 20px auto;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    border: 5px dotted #000;
+    padding: 10px;
+  }
+  
+.game-header {
+    grid-column: span 3; /* Span all three columns */
+    text-align: center;
+}
+
+.game-image-wrapper {
+    justify-self: center;
+    padding: 4%;
+    position: relative;
+}
+
+.game-image {
+    border-radius: 50%;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+    transition: all ease-in-out .2s;
+}
+
+.game-image:hover{
+    filter: brightness(.75);
+    box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+}
+
+.game-image-wrapper:hover > h4{
+    visibility: visible;
+    color: black;
+}
+
+.game-image-wrapper > h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    z-index: 2;
+    
+}
+
+@media (max-width: 650px){
+    .game-grid{
+        grid-template-columns: 100%;
+    }
+}
+
+/* styles.css */
+.image-container {
+    border: 5px dotted #000;
+    padding: 10px;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Initially, hide all images */
+}
+
+.image-container img:first-child {
+    opacity: 1; /* Display the first image */
+}
+
+.play{
+    text-align: center;
+}
+
+#play-button{
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    background-color: crimson;
+    color: white;
+}
+
+#play-button:hover{
+    background-color: black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>  
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=display-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container"> 
+            <h1> Rock Paper Scissors</h1>
+            <div class="game-header">
+                <h3>Player Move</h3>
+            </div>
+            <div class="game-grid"> 
+                <div class="game-image-wrapper">
+                    <img id="rock" class="game-image" src="images\rock.png" alt="rock images" width="150" height="150">
+                    <h4>Rock</h4>
+                </div>
+                <div class="game-image-wrapper">
+                    <img id="paper" class="game-image" src="images\paper.png" alt="paper images" width="150" height="150">
+                    <h4>Paper</h4>
+                </div>
+                <div class="game-image-wrapper">
+                    <img id="scissor" class="game-image" src="images\scissor.png" alt="scissor images" width="150" height="150">
+                    <h4>Scissor</h4>
+                </div>
+            </div> 
+            <div class="game-header">
+                <h3>Computer Move</h3>
+            </div>
+            <div class="image-container">
+                <img id="rock" src="images\rock.png" width="150" height="150" alt="rock images">
+                <img id="paper" src="images\paper.png" width="150" height="150" alt="paper images">
+                <img id="scissor" src="images\scissor.png" width="150" height="150" alt="scissor images">
+            </div>
+            <div class="play">
+                <button id="play-button">Play</button>
+            </div>
+            <div>
+                <label>Win: </label>
+                <label id="win-score">0</label>
+                <label>Lose: </label>
+                <label id="lose-score">0</label>
+            </div>
+            <div>
+                <label> Result: </label>
+                <label id="result"></label>
+            </div>    
+        </div>
+    </body>
+    <script src="script.js"> </script>
+</html>
